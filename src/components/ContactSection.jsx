@@ -227,7 +227,7 @@ export default function ContactSection() {
             ))}
           </div>
           <a
-            href="/Shrinu-Resume.pdf"
+            href="/Resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="bg-black hover:bg-white border border-transparent hover:border-white/10 h-11 px-7 rounded-xl flex items-center justify-center text-xs font-bold tracking-[0.2em] group/resume shadow-2xl transition-all duration-500"
