@@ -290,7 +290,7 @@ export default function VideoPlayerModal({ video, onClose, onAutoAdvance }) {
       >
         {/* Top Header Bar */}
         <div
-          className={`absolute top-0 inset-x-0 h-20 bg-gradient-to-b from-black/90 via-black/50 to-transparent flex items-start justify-between p-4 z-30 transition-all duration-300 ${
+          className={`absolute top-0 inset-x-0 h-20 bg-linear-to-b from-black/90 via-black/50 to-transparent flex items-start justify-between p-4 z-30 transition-all duration-300 ${
             showControls
               ? "opacity-100 translate-y-0"
               : "opacity-0 -translate-y-2 pointer-events-none"
@@ -415,7 +415,7 @@ export default function VideoPlayerModal({ video, onClose, onAutoAdvance }) {
 
           {/* Bottom Controls Panel */}
           <div
-            className={`absolute inset-x-0 bottom-0 p-4 sm:p-6 bg-gradient-to-t from-black/95 via-black/70 to-transparent flex flex-col justify-end transition-all duration-300 z-30 pointer-events-auto ${
+            className={`absolute inset-x-0 bottom-0 p-4 sm:p-6 bg-linear-to-t from-black/95 via-black/70 to-transparent flex flex-col justify-end transition-all duration-300 z-30 pointer-events-auto ${
               showControls
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-2 pointer-events-none"
@@ -556,7 +556,7 @@ export default function VideoPlayerModal({ video, onClose, onAutoAdvance }) {
                     {speed}x
                   </button>
                   {showSpeedMenu && (
-                    <div className="absolute bottom-12 right-0 bg-[#111111] border border-white/10 rounded-lg p-1 shadow-2xl flex flex-col min-w-[70px] z-50 backdrop-blur-xl">
+                    <div className="absolute bottom-12 right-0 bg-[#111111] border border-white/10 rounded-lg p-1 shadow-2xl flex flex-col min-w-17.5 z-50 backdrop-blur-xl">
                       {[0.5, 1, 1.5, 2].map((v) => (
                         <button
                           key={v}
