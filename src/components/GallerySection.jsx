@@ -60,7 +60,7 @@ const galleryData = [
     videoUrl: "s5iuOtqFw5lPn6TS9qwbzl2VT8V44EK9SZTiiXMHziE",
     tools: ["Premiere Pro"],
     bgColor: "#050C3C",
-    nextVideoId: 6, // Loops back to the first video smoothly
+    nextVideoId: 6,
   },
   {
     id: 6,
@@ -69,8 +69,18 @@ const galleryData = [
     thumbnailUrl: "/Thumbnail/T6.jpg",
     videoUrl: "smNRWej00ggnoBfI4N1utCZw5aqnagKyK8Tz8yCsksoo",
     tools: ["After Effect", "Blender"],
+    bgColor: "#050C3C",
+    nextVideoId: 7,
+  },
+  {
+    id: 7,
+    title: "Documentary - Mini-Doc Showcase (Vol. 2)",
+    tech: "After Effects • Premiere Pro • Narrative Design",
+    thumbnailUrl: "/Thumbnail/T7.png",
+    videoUrl: "PkhS00orPMJNoPYZBGOe8WsKnrukCiQXe202jJ9c5la8U",
+    tools: ["After Effects", "Premiere Pro"],
     bgColor: "#010101",
-    nextVideoId: 1, // Loops back to the first video smoothly
+    nextVideoId: 1,
   },
 ];
 
